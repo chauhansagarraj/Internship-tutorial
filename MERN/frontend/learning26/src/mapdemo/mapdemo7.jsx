@@ -15,7 +15,7 @@ const mapdemo7 = () => {
   return (
      <div className="container">
     <h1>Map Demo 7</h1>
-    <h3>🎓 Student Marks</h3>
+    <h3>Student Marks</h3>
       <table>
         <tr><th>Roll</th><th>Name</th><th>Math</th><th>Sci</th><th>Result</th><th>Image</th></tr>
         {marks.map(s => (

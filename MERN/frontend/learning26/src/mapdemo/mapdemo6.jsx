@@ -18,7 +18,7 @@ const mapdemo6 = () => {
     <div className="container">
 
       {/* 1. BOOKS TABLE */}
-      <h3>📚 Books Table</h3>
+      <h3>Books Table</h3>
       <table>
         <tr><th>ID</th><th>Title</th><th>Author</th><th>Price</th><th>Status</th><th>Image</th></tr>
         {books.map(b => (
