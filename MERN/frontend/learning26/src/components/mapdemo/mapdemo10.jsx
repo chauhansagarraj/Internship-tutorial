@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/css/MapExamples.css'
-import travelBag from "../assets/photos/travelBag.png"
+import '../../assets/css/MapExamples.css'
+import travelBag from "../../assets/photos/travelBag.png"
 const mapdemo10 = () => {
      const products = [
     { id: 1, name: "Shoes", price: 1200, rating: 4.5, category: "Fashion", img: "" },

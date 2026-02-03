@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/css/MapExamples.css'
-import boy from "../assets/photos/boy.png"
+import '../../assets/css/MapExamples.css'
+import boy from "../../assets/photos/boy.png"
 const mapdemo9 = () => {
      const employees = [
     { id: 1, name: "Raj", dept: "IT", salary: 30000, status: "Active", img: "" },

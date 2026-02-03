@@ -1,7 +1,7 @@
 import React from 'react'
-import '../assets/css/MapExamples.css'
-import js from "../assets/photos/js.png"
-import css from "../assets/photos/css.png"
+import '../../assets/css/MapExamples.css'
+import js from "../../assets/photos/js.png"
+import css from "../../assets/photos/css.png"
 
 const mapdemo6 = () => {
       const books = [

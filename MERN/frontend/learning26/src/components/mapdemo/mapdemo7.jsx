@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/css/MapExamples.css'
-import girl from "../assets/photos/girl.png"
+import '../../assets/css/MapExamples.css'
+import girl from "../../assets/photos/girl.png"
 const mapdemo7 = () => {
       const marks = [
     { roll: 1, name: "Amit", math: 80, sci: 70, result: "Pass", img: "" },

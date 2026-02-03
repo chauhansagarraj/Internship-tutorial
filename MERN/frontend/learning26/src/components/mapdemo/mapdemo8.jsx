@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/css/MapExamples.css'
-import laptop from "../assets/photos/laptop.png"
+import '../../assets/css/MapExamples.css'
+import laptop from "../../assets/photos/laptop.png"
 const mapdemo8 = () => {
     const electronics = [
     { id: 1, item: "Mobile", brand: "Samsung", price: 15000, stock: true, img: "" },
