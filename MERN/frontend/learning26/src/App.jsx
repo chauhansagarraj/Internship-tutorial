@@ -19,6 +19,9 @@ import WatchComp from './components/Navbar/WatchComp'
 import NotFoundComp from './components/Navbar/NotFoundComp'
 import TeamsComp from './components/DynamicRouting/TeamsComp'
 import TeamDetails from './components/DynamicRouting/TeamDetails'
+import { UseStateDemo1 } from './components/UseState.jsx/UseStateDemo1'
+import { UseStateDemo2 } from './components/UseState.jsx/UseStateDemo2'
+import { UseStateDemo3 } from './components/UseState.jsx/UseStateDemo3'
 function App() {
 
   return (
@@ -43,6 +46,9 @@ function App() {
         <Route path="/*" element={<NotFoundComp />} />
         <Route path="/teams" element={<TeamsComp />} />
         <Route path="/teamDetails/:name" element={<TeamDetails />} />
+        <Route path="/useStateDemo1" element={<UseStateDemo1 />} />
+        <Route path="/useStateDemo2" element={<UseStateDemo2 />} />
+        <Route path="/useStateDemo3" element={<UseStateDemo3 />} />
       </Routes>
      </div>
     </>
