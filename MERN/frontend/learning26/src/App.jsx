@@ -22,6 +22,8 @@ import TeamDetails from './components/DynamicRouting/TeamDetails'
 import { UseStateDemo1 } from './components/UseState.jsx/UseStateDemo1'
 import { UseStateDemo2 } from './components/UseState.jsx/UseStateDemo2'
 import { UseStateDemo3 } from './components/UseState.jsx/UseStateDemo3'
+import StudentForm from './components/FormValidate/StudentForm'
+import JobApplication from './components/FormValidate/JobApplication'
 function App() {
 
   return (
@@ -49,6 +51,8 @@ function App() {
         <Route path="/useStateDemo1" element={<UseStateDemo1 />} />
         <Route path="/useStateDemo2" element={<UseStateDemo2 />} />
         <Route path="/useStateDemo3" element={<UseStateDemo3 />} />
+        <Route path='studentForm' element={<StudentForm/>}/>
+        <Route path='jobApplication' element={<JobApplication/>}/>
       </Routes>
      </div>
     </>
