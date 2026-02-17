@@ -24,6 +24,8 @@ import { UseStateDemo2 } from './components/UseState.jsx/UseStateDemo2'
 import { UseStateDemo3 } from './components/UseState.jsx/UseStateDemo3'
 import StudentForm from './components/FormValidate/StudentForm'
 import JobApplication from './components/FormValidate/JobApplication'
+import { ApiDemo1 } from './components/ApiDemo/ApiDemo1'
+import { ApiDemo2 } from './components/ApiDemo/ApiDemo2'
 function App() {
 
   return (
@@ -53,6 +55,8 @@ function App() {
         <Route path="/useStateDemo3" element={<UseStateDemo3 />} />
         <Route path='studentForm' element={<StudentForm/>}/>
         <Route path='jobApplication' element={<JobApplication/>}/>
+        <Route path='/apidemo1' element={<ApiDemo1/>}/>
+        <Route path='/apidemo2' element={<ApiDemo2/>}/>
       </Routes>
      </div>
     </>
