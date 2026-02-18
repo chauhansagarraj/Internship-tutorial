@@ -26,6 +26,7 @@ import StudentForm from './components/FormValidate/StudentForm'
 import JobApplication from './components/FormValidate/JobApplication'
 import { ApiDemo1 } from './components/ApiDemo/ApiDemo1'
 import { ApiDemo2 } from './components/ApiDemo/ApiDemo2'
+import  MyForm  from './components/ApiDemo/ApiDemo3'
 function App() {
 
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path='jobApplication' element={<JobApplication/>}/>
         <Route path='/apidemo1' element={<ApiDemo1/>}/>
         <Route path='/apidemo2' element={<ApiDemo2/>}/>
+        <Route path='/apidemo3' element={<MyForm/>}/>
       </Routes>
      </div>
     </>
